@@ -1,0 +1,34 @@
+{
+    "filters": {
+      "min_liquidity_usd": 10000,
+      "min_price_usd": 0.0001,
+      "max_price_usd": 10.0
+    },
+    "coin_blacklist": [
+      "0xBadCoinAddress1",
+      "0xBadCoinAddress2"
+    ],
+    "dev_blacklist": [
+      "rug_dev1",
+      "rug_dev2"
+    ],
+    "volume_verification": {
+      "use_internal_algorithm": true,
+      "fake_volume_threshold": 5.0,
+      "use_pocket_universe": false,
+      "pocket_universe": {
+        "api_url": "https://api.pocketuniverse.com/verify",
+        "api_token": "YOUR_POCKET_UNIVERSE_API_TOKEN"
+      }
+    },
+    "rugcheck": {
+      "required_status": "Good",
+      "api_url": "https://api.rugcheck.xyz/verify",
+      "api_token": "YOUR_RUGCHECK_API_TOKEN"
+    },
+    "telegram": {
+      "bot_token": "",
+      "chat_id": ""
+    }
+  }
+  
