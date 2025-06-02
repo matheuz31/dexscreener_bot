@@ -87,4 +87,4 @@ python dexscreener_bot.py
 
 ## 📄 License
 
-MIT © YourNameHere
+MIT © Matheus Corrêa
